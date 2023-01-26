@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 200vh;
+}
+
+.container {
+    background: green;
+    width: 80vw;
+    height: 200px;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+}
+
+.example-1 {
+    position: relative;
+    background: red;
+    left: 40;
+    z-index: 1;
+}
+
+.example-2 {
+    position: relative;
+    background: blue ;
+    top: 10px;
+    left: 40px;
+}
+
+.example-3 {
+    position: absolute;
+    background: orange;
+    top: 6px;
+    right: 0px;
+    z-index: 0;
+    
+}
